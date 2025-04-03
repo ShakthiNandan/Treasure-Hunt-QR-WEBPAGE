@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intellina 2K25 Treasure Hunt</title>
+</head>
+<body>
+    <h1>Intellina 2K25 Treasure Hunt</h1>
+    <h2>Team Slot: {{ team }}</h2>
+    <h3>Clue Number: {{ clue_number }}</h3>
+
+    <audio controls>
+        <source src="{{ url_for('serve_audio', team=team, filename=filename) }}" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
