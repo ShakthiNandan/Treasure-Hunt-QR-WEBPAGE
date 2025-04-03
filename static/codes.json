@@ -30,123 +30,333 @@
         "clue": "clue6"
     },
     "Nwwmq6OL": {
+        "team": "SLOT 10",
+        "file": "slot 10 clue1.opus",
+        "clue": "clue1"
+    },
+    "kTkx9NIQ": {
+        "team": "SLOT 10",
+        "file": "slot 10 clue2.opus",
+        "clue": "clue2"
+    },
+    "0Wobtqn6": {
+        "team": "SLOT 10",
+        "file": "slot 10 clue3.opus",
+        "clue": "clue3"
+    },
+    "2tOy4Cqp": {
+        "team": "SLOT 10",
+        "file": "slot 10 clue4.opus",
+        "clue": "clue4"
+    },
+    "IqK3yn9F": {
+        "team": "SLOT 10",
+        "file": "slot 10 clue5.opus",
+        "clue": "clue5"
+    },
+    "fcgMXAdx": {
+        "team": "SLOT 10",
+        "file": "slot 10 clue6.opus",
+        "clue": "clue6"
+    },
+    "9G81aSQH": {
+        "team": "SLOT 11",
+        "file": "slot 11 clue1.opus",
+        "clue": "clue1"
+    },
+    "qNgAC72q": {
+        "team": "SLOT 11",
+        "file": "slot 11 clue2.opus",
+        "clue": "clue2"
+    },
+    "Fl41sNLj": {
+        "team": "SLOT 11",
+        "file": "slot 11 clue3.opus",
+        "clue": "clue3"
+    },
+    "VHWGaub5": {
+        "team": "SLOT 11",
+        "file": "slot 11 clue4.opus",
+        "clue": "clue4"
+    },
+    "2Ztd26fE": {
+        "team": "SLOT 11",
+        "file": "slot 11 clue5.opus",
+        "clue": "clue5"
+    },
+    "eVVhDIq2": {
+        "team": "SLOT 11",
+        "file": "slot 11 clue6.opus",
+        "clue": "clue6"
+    },
+    "AnHTmt9O": {
+        "team": "SLOT 12",
+        "file": "slot 12 clue1.opus",
+        "clue": "clue1"
+    },
+    "BGhnuKon": {
+        "team": "SLOT 12",
+        "file": "slot 12 clue2.opus",
+        "clue": "clue2"
+    },
+    "eNo41eoP": {
+        "team": "SLOT 12",
+        "file": "slot 12 clue3.opus",
+        "clue": "clue3"
+    },
+    "ni6JDWYl": {
+        "team": "SLOT 12",
+        "file": "slot 12 clue4.opus",
+        "clue": "clue4"
+    },
+    "gAACTP9g": {
+        "team": "SLOT 12",
+        "file": "slot 12 clue5.opus",
+        "clue": "clue5"
+    },
+    "yv1plBAr": {
+        "team": "SLOT 12",
+        "file": "slot 12 clue6.opus",
+        "clue": "clue6"
+    },
+    "p5B1Id9Z": {
         "team": "SLOT 2",
         "file": "team2 clue1.opus",
         "clue": "clue1"
     },
-    "kTkx9NIQ": {
+    "850kEnyd": {
         "team": "SLOT 2",
         "file": "team2 clue2.opus",
         "clue": "clue2"
     },
-    "0Wobtqn6": {
+    "x9qWCA79": {
         "team": "SLOT 2",
         "file": "team2 clue3.opus",
         "clue": "clue3"
     },
-    "2tOy4Cqp": {
+    "ISjs8JHU": {
         "team": "SLOT 2",
         "file": "team2 clue4.opus",
         "clue": "clue4"
     },
-    "IqK3yn9F": {
+    "dKF0j7el": {
         "team": "SLOT 2",
         "file": "team2 clue5.opus",
         "clue": "clue5"
     },
-    "fcgMXAdx": {
+    "KPoh3pKM": {
         "team": "SLOT 2",
         "file": "team2 clue6.opus",
         "clue": "clue6"
     },
-    "9G81aSQH": {
+    "zKG5mSoy": {
         "team": "SLOT 3",
         "file": "team3 clue1.opus",
         "clue": "clue1"
     },
-    "qNgAC72q": {
+    "PstUeC99": {
         "team": "SLOT 3",
         "file": "team3 clue2.opus",
         "clue": "clue2"
     },
-    "Fl41sNLj": {
+    "enq522wj": {
         "team": "SLOT 3",
         "file": "team3 clue3.opus",
         "clue": "clue3"
     },
-    "VHWGaub5": {
+    "ZRL9OaYs": {
         "team": "SLOT 3",
         "file": "team3 clue4.opus",
         "clue": "clue4"
     },
-    "2Ztd26fE": {
+    "P6ihgIqL": {
         "team": "SLOT 3",
         "file": "team3 clue5.opus",
         "clue": "clue5"
     },
-    "eVVhDIq2": {
+    "SmNqE40f": {
         "team": "SLOT 3",
         "file": "team3 clue6.opus",
         "clue": "clue6"
     },
-    "AnHTmt9O": {
+    "AraVNqTI": {
         "team": "SLOT 4",
         "file": "team4 clue1.opus",
         "clue": "clue1"
     },
-    "BGhnuKon": {
+    "Aae24HZK": {
         "team": "SLOT 4",
         "file": "team4 clue2.opus",
         "clue": "clue2"
     },
-    "eNo41eoP": {
+    "jht3X13n": {
         "team": "SLOT 4",
         "file": "team4 clue3.opus",
         "clue": "clue3"
     },
-    "ni6JDWYl": {
+    "pgW2zMj5": {
         "team": "SLOT 4",
         "file": "team4 clue4.opus",
         "clue": "clue4"
     },
-    "gAACTP9g": {
+    "18Y2bTu5": {
         "team": "SLOT 4",
         "file": "team4 clue5.opus",
         "clue": "clue5"
     },
-    "yv1plBAr": {
+    "X1YqWg21": {
         "team": "SLOT 4",
         "file": "team4 clue6.opus",
         "clue": "clue6"
     },
-    "p5B1Id9Z": {
+    "nYCsXobl": {
         "team": "SLOT 5",
         "file": "team5 clue1.opus",
         "clue": "clue1"
     },
-    "850kEnyd": {
+    "u17rNy8H": {
         "team": "SLOT 5",
         "file": "team5 clue2.opus",
         "clue": "clue2"
     },
-    "x9qWCA79": {
+    "6h8l7qgA": {
         "team": "SLOT 5",
         "file": "team5 clue3.opus",
         "clue": "clue3"
     },
-    "ISjs8JHU": {
+    "TtLFxJpR": {
         "team": "SLOT 5",
         "file": "team5 clue4.opus",
         "clue": "clue4"
     },
-    "dKF0j7el": {
+    "a5HSUPwe": {
         "team": "SLOT 5",
         "file": "team5 clue5.opus",
         "clue": "clue5"
     },
-    "KPoh3pKM": {
+    "Put0Sstz": {
         "team": "SLOT 5",
         "file": "team5 clue6.opus",
+        "clue": "clue6"
+    },
+    "yshA6P3M": {
+        "team": "SLOT 6",
+        "file": "slot 6 clue1.opus",
+        "clue": "clue1"
+    },
+    "sHarAJOC": {
+        "team": "SLOT 6",
+        "file": "slot 6 clue2.opus",
+        "clue": "clue2"
+    },
+    "BnD3XkfF": {
+        "team": "SLOT 6",
+        "file": "slot 6 clue3.opus",
+        "clue": "clue3"
+    },
+    "NuYUPnmb": {
+        "team": "SLOT 6",
+        "file": "slot 6 clue4.opus",
+        "clue": "clue4"
+    },
+    "pD0ezNmR": {
+        "team": "SLOT 6",
+        "file": "slot 6 clue5.opus",
+        "clue": "clue5"
+    },
+    "EpOaUVgA": {
+        "team": "SLOT 6",
+        "file": "slot 6 clue6.opus",
+        "clue": "clue6"
+    },
+    "k7Gdp0CX": {
+        "team": "SLOT 7",
+        "file": "slot 7 clue1.opus",
+        "clue": "clue1"
+    },
+    "P9K63LSF": {
+        "team": "SLOT 7",
+        "file": "slot 7 clue2.opus",
+        "clue": "clue2"
+    },
+    "ZH3UDqpN": {
+        "team": "SLOT 7",
+        "file": "slot 7 clue3.opus",
+        "clue": "clue3"
+    },
+    "VGMrerqt": {
+        "team": "SLOT 7",
+        "file": "slot 7 clue4.opus",
+        "clue": "clue4"
+    },
+    "HioRRdzH": {
+        "team": "SLOT 7",
+        "file": "slot 7 clue5.opus",
+        "clue": "clue5"
+    },
+    "zmA4KR1V": {
+        "team": "SLOT 7",
+        "file": "slot 7 clue6.opus",
+        "clue": "clue6"
+    },
+    "xavU07zU": {
+        "team": "SLOT 8",
+        "file": "slot 8 clue1.opus",
+        "clue": "clue1"
+    },
+    "HLnnBbuQ": {
+        "team": "SLOT 8",
+        "file": "slot 8 clue2.opus",
+        "clue": "clue2"
+    },
+    "zkChMbyI": {
+        "team": "SLOT 8",
+        "file": "slot 8 clue3.opus",
+        "clue": "clue3"
+    },
+    "bNiCdxnu": {
+        "team": "SLOT 8",
+        "file": "slot 8 clue4.opus",
+        "clue": "clue4"
+    },
+    "VxUZpfbH": {
+        "team": "SLOT 8",
+        "file": "slot 8 clue5.opus",
+        "clue": "clue5"
+    },
+    "9vOWOU6m": {
+        "team": "SLOT 8",
+        "file": "slot 8 clue6.opus",
+        "clue": "clue6"
+    },
+    "bjhPInRV": {
+        "team": "SLOT 9",
+        "file": "slot 9 clue1.opus",
+        "clue": "clue1"
+    },
+    "kLUhY7gb": {
+        "team": "SLOT 9",
+        "file": "slot 9 clue2.opus",
+        "clue": "clue2"
+    },
+    "tP7ySeQM": {
+        "team": "SLOT 9",
+        "file": "slot 9 clue3.opus",
+        "clue": "clue3"
+    },
+    "gV0Lh8Wv": {
+        "team": "SLOT 9",
+        "file": "slot 9 clue4.opus",
+        "clue": "clue4"
+    },
+    "AwFv0Yg7": {
+        "team": "SLOT 9",
+        "file": "slot 9 clue5.opus",
+        "clue": "clue5"
+    },
+    "NZRBT7qY": {
+        "team": "SLOT 9",
+        "file": "slot 9 clue6.opus",
         "clue": "clue6"
     }
 }
