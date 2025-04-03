@@ -1,12 +1,8 @@
 import qrcode
 import json
 import os
-import random  # For reproducibility
-import string
+import uuid  # For unique codes
 from PIL import Image, ImageDraw, ImageFont, ImageOps
-
-# Set a fixed seed for reproducibility
-random.seed(42)
 
 # Define paths
 UPLOADS_DIR = "static/uploads"
@@ -19,6 +15,12 @@ os.makedirs(QR_CODES_DIR, exist_ok=True)
 # Store unique codes
 codes = {}
 
+# Define colors for teams
+team_colors = ["yellow", "red", "navy", "orange", "light blue", 
+               "purple", "pink", "dark green", "light green", "brown"]
+
+
+# Function to generate a stylized QR code
 def generate_stylized_qr(text, filename, fg_color="black", bg_color="white", 
                          logo_path="logo.png", top_text="QR Code", number=1, invert_colors=False):
     qr = qrcode.QRCode(
@@ -81,28 +83,31 @@ def invert_qr_colors(input_path, output_path):
     inverted_img.save(output_path)
     print(f"Inverted QR saved as {output_path}")
 
+# Get list of teams and assign colors
+teams = sorted([team for team in os.listdir(UPLOADS_DIR) if os.path.isdir(os.path.join(UPLOADS_DIR, team))])
+team_color_map = {team: team_colors[i % len(team_colors)] for i, team in enumerate(teams)}
+
 # Generate QR codes for each audio file
-for team_folder in os.listdir(UPLOADS_DIR):
+for team_folder in teams:
     team_path = os.path.join(UPLOADS_DIR, team_folder)
     
-    if os.path.isdir(team_path):
-        for audio_file in os.listdir(team_path):
-            if audio_file.endswith(".opus"):
-                # Generate an 8-character unique code with letters and digits
-                unique_code = ''.join(random.choices(string.ascii_letters + string.digits, k=8))
-                
-                codes[unique_code] = {
-                    "team": team_folder,
-                    "file": audio_file,
-                    "clue": audio_file.split(" ")[-1].split(".")[0]  # Extract clue number
-                }
+    bg_color = team_color_map[team_folder]  # Assign color based on team
 
-                n = audio_file.split(" ")[-1].split(".")[0] 
-                url = f"http://TreasureHuntCIT.pythonanywhere.com/play/{unique_code}"
-                qr_filename = os.path.join(QR_CODES_DIR, f"{unique_code}.png")
-                generate_stylized_qr(url, qr_filename, top_text=f"{codes[unique_code]['team']}", number=n)
-                
-                print(f"Generated QR for {audio_file} -> {unique_code}")
+    for audio_file in os.listdir(team_path):
+        if audio_file.endswith(".opus"):
+            unique_code = str(uuid.uuid4())[:8]  # Generate random UUID
+            codes[unique_code] = {
+                "team": team_folder,
+                "file": audio_file,
+                "clue": audio_file.split(" ")[-1].split(".")[0]  # Extract clue number
+            }
+
+            n = audio_file.split(" ")[-1].split(".")[0] 
+            url = f"http://TreasureHuntCIT.pythonanywhere.com/play/{unique_code}"
+            qr_filename = os.path.join(QR_CODES_DIR, f"{unique_code}.png")
+            generate_stylized_qr(url, qr_filename, bg_color=bg_color, top_text=f"{codes[unique_code]['team']}", number=n)
+            
+            print(f"Generated QR for {audio_file} -> {unique_code} with color {bg_color}")
 
 # Save mappings to JSON
 with open(CODES_FILE, "w") as f:
