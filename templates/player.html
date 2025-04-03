@@ -4,15 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intellina 2K25 Treasure Hunt</title>
+    <style>
+        /* Google Font */
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+        /* General Styles */
+        body {
+            font-family: 'Orbitron', sans-serif;
+            background: linear-gradient(135deg, #1e1e1e, #121212);
+            color: white;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            margin: 0;
+        }
+
+        /* Animated Title */
+        h1 {
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            background: linear-gradient(45deg, #ff00ff, #00ffff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: glow 1.5s infinite alternate;
+        }
+
+        @keyframes glow {
+            from { text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff; }
+            to { text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff; }
+        }
+
+        /* Card Container */
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+            width: 90%;
+            max-width: 400px;
+            box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+            backdrop-filter: blur(10px);
+            transform: scale(0.9);
+            animation: fadeIn 1s ease-out forwards;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.8); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        /* Team & Clue Info */
+        h2, h3 {
+            margin: 10px 0;
+        }
+
+        /* Audio Player Styling */
+        audio {
+            width: 100%;
+            outline: none;
+            border-radius: 10px;
+        }
+
+        /* Glowing Effect */
+        .glow {
+            color: #00ffff;
+            text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+        }
+
+    </style>
 </head>
 <body>
     <h1>Intellina 2K25 Treasure Hunt</h1>
-    <h2>Team Slot: {{ team }}</h2>
-    <h3>Clue Number: {{ clue_number }}</h3>
+    
+    <div class="card">
+        <h2 class="glow">Team: {{ team }}</h2>
+        <h3>Clue Number: {{ clue_number }}</h3>
 
-    <audio controls>
-        <source src="{{ url_for('serve_audio', team=team, filename=filename) }}" type="audio/ogg">
-        Your browser does not support the audio element.
-    </audio>
+        <audio controls>
+            <source src="{{ url_for('serve_audio', team=team, filename=filename) }}" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
 </body>
 </html>
