@@ -92,7 +92,7 @@ for team_folder in os.listdir(UPLOADS_DIR):
                 }
 
                 n=audio_file.split(" ")[-1].split(".")[0] 
-                url = f"http://127.0.0.1:5000/play/{unique_code}"
+                url = f"http://TreasureHuntCIT.pythonanywhere.com/play/{unique_code}"
                 qr_filename = os.path.join(QR_CODES_DIR, f"{unique_code}.png")
                 generate_stylized_qr(url, qr_filename, top_text=f"{codes[unique_code]['team']}", number=n)
                 
